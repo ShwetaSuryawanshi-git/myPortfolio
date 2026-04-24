@@ -99,7 +99,7 @@ const Hero = ({ id }) => {
       <div className="container" style={{ position: 'relative', zIndex: 10 }}>
         <h1 style={{ fontSize: 'clamp(3rem, 8vw, 6rem)', lineHeight: 1, marginBottom: '1rem' }}>
           <div ref={title1Ref} style={{ opacity: 0 }}>AI Engineer &</div>
-          <div ref={title2Ref} style={{ opacity: 0, color: 'var(--accent)' }}>Full-Stack Developer.</div>
+          <div ref={title2Ref} style={{ opacity: 0, color: 'var(--accent)' }}>ML Backend Developer.</div>
         </h1>
         
         <p ref={descRef} style={{ maxWidth: '600px', fontSize: '1.25rem', color: 'var(--text-secondary)', marginBottom: '3rem', opacity: 0 }}>

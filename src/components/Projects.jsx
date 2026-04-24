@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { ExternalLink, Code2 } from 'lucide-react';
 
 const projectsData = [
-  { id: 1, title: 'TypingMaster - AI Typing Analytics', category: 'Web', tags: ['Java', 'Spring Boot', 'MySQL', 'Python', 'PyTorch'], link: '#', gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' },
+  { id: 1, title: 'TypingMaster - AI Typing Analytics', category: 'Web', tags: ['Java', 'Spring Boot', 'MySQL', 'Python', 'PyTorch'], link: 'https://github.com/ShwetaSuryawanshi-git/TypingTest-Master/', gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' },
   { id: 2, title: 'Early Stage Dyslexia Detection in Children', category: 'AI', tags: ['Python', 'Data', 'ML'], link: 'https://github.com/ShwetaSuryawanshi-git/python-project', gradient: 'linear-gradient(135deg, #ff0844 0%, #ffb199 100%)' },
   { id: 3, title: 'MediGraph', category: 'Web', tags: ['React', 'Node.js', 'FastAPI', 'OpenAI'], link: 'https://github.com/ShwetaSuryawanshi-git/MediGraph', demo: 'https://medigraph-shweta-2026-demo.netlify.app', gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)' },
   { id: 4, title: 'Graph-Based Social Connection Finder (DSA+DBMS)', category: 'Web', tags: ['Neo4j', 'Node.js', 'React', 'DSA'], link: 'https://github.com/ShwetaSuryawanshi-git/DSADBMS-Project', gradient: 'linear-gradient(135deg, #141E30 0%, #243B55 100%)' },
